@@ -1,0 +1,75 @@
+.js-thumbnail-picture {
+  width: 100% !important;
+  border-radius: 10px;
+}
+
+.js-video-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--dark-text) !important;
+}
+
+.js-video-author {
+  margin-bottom: 4px;
+  font-size: 12px;
+  color: var(--light-text) !important;
+}
+
+.js-video-stats {
+  font-size: 12px;
+  color: var(--light-text) !important;
+
+}
+
+.js-profile-picture {
+  width: 40px;
+  border-radius: 20px;
+}
+
+.js-video-information-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.js-video-information {
+  margin-top: 10px;
+}
+
+/* @media (max-width: 750px) {
+  .js-video-grids {
+    grid-template-columns: 1fr fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .js-video-grids {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .js-video-grids {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+} */
+
+.js-thumbnail-row {
+  position: relative;
+}
+
+.js-video-time {
+  position: absolute;
+  background-color: var(--dark-text) !important;
+  color: var(--white-text) !important;
+  font-size: 14px;
+  bottom: 8px;
+  right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 5px;
+}
